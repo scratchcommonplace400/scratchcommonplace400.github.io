@@ -724,3 +724,41 @@ a { color: inherit; text-decoration: none; }
   letter-spacing:.08em;
   margin-bottom:20px;
 }
+.mini-card{
+    width:280px;
+    background:#fff;
+    border-radius:20px;
+    padding:18px;
+    margin-left:auto;
+    margin-bottom:20px;
+    box-shadow:0 20px 40px rgba(15,23,42,.08);
+    border:1px solid #eef2ff;
+}
+
+.mini-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:16px;
+}
+
+.mini-title{
+    font-size:.9rem;
+    font-weight:600;
+    color:#111827;
+}
+
+.mini-status{
+    background:#dcfce7;
+    color:#15803d;
+    padding:4px 10px;
+    border-radius:999px;
+    font-size:.7rem;
+    font-weight:600;
+}
+
+.mini-value{
+    font-size:1.1rem;
+    font-weight:700;
+    color:#4f46e5;
+}
